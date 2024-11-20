@@ -1,6 +1,19 @@
 import 'package:flutter/material.dart';
 
-void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  if (kIsWeb) {
+    await Firabase.initializeApp(options:FirabseOptions:(
+      apiKey: "AIzaSyBkPNtX0el83U7l-7znqFjcqyvTPQmJ5rA",
+     authDomain: "pokemonbanco.firebaseapp.com",
+      databaseURL: "https://pokemonbanco-default-rtdb.firebaseio.com",
+      projectId: "pokemonbanco",
+      storageBucket: "pokemonbanco.firebasestorage.app",
+      messagingSenderId: "106220442351",
+      appId: "1:106220442351:web:917baffb3b720f62e3011a"))
+  }
+
   runApp(const MyApp());
 }
 

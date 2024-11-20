@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "106220442351",
+    "firebase_url": "https://pokemonbanco-default-rtdb.firebaseio.com",
+    "project_id": "pokemonbanco",
+    "storage_bucket": "pokemonbanco.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106220442351:android:0a74999ab4bbef45e3011a",
+        "android_client_info": {
+          "package_name": "com.example.pokemon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx0anPr3vZ3LregIJe6IMqjUZkX3eFZ5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
